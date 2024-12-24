@@ -1,0 +1,14 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true  # 추가된 설정이 기존 설정을 덮어쓸 수 있도록 설정
+  application:
+    name: sample-batch
+  config:
+    import:
+        - classpath:config/config-datasource.yml
+        - classpath:config/config-jpa.yml
+        - classpath:config/config-batch.yml
+        - classpath:config/config-logging.yml
+        - classpath:config/config-monitor.yml
+        - classpath:config/config-springdoc.yml
+

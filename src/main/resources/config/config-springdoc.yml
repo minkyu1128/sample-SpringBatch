@@ -1,0 +1,12 @@
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html  # Swagger UI 경로
+    groups-order: DESC
+    operationsSorter: method
+    disable-swagger-default-url: true
+    display-request-duration: true
+  api-docs:
+    path: /api-docs  # API 문서 경로
+  show-actuator: true  # Actuator 엔드포인트 노출
+  default-consumes-media-type: application/json
+  default-produces-media-type: application/json

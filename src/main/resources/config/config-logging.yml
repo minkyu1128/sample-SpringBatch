@@ -1,0 +1,7 @@
+# Logging
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    hibernate.orm.jdbc.bind: trace
+    com.minkyu.samplebatch: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE

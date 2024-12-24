@@ -1,0 +1,7 @@
+spring:
+  # Batch
+  batch:
+    job:
+      enabled: false # 자동 실행 방지
+    jdbc:
+      initialize-schema: always
